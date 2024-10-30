@@ -1,0 +1,358 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+/*font-family: 'Open Sans', sans-serif;*/
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic);
+/*font-family: 'Playfair Display', serif;*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
+/*font-family: 'Lato', sans-serif;*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+/*font-family: 'Montserrat', sans-serif;*/
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700italic,700);
+/*font-family: 'PT Serif', serif;*/
+@import url(https://fonts.googleapis.com/css?family=Mate:400,400italic);
+/*font-family: 'Mate', serif;*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,100italic,400italic,300italic,700,500italic,500,700italic);
+/*font-family: 'Roboto', sans-serif;*/
+.click-to-tweet {
+	display:            block;
+	background-color:   #fff;
+	margin:             0;
+	padding:            0;
+	position:           relative;
+	border:             1px solid #dddddd;
+	-moz-border-radius: 4px;
+	border-radius:      4px;
+	padding:            15px 30px;
+	margin:             15px 0px;
+	zoom:               1;
+}
+
+.click-to-tweet .clearfix {
+	zoom: 1;
+}
+
+.click-to-tweet .clearfix:after {
+	display:    block;
+	visibility: hidden;
+	height:     0;
+	clear:      both;
+	content:    ".";
+}
+
+.click-to-tweet .clear {
+	clear: both;
+}
+
+.click-to-tweet .f-left {
+	float:    left;
+	display:  inline-block;
+	position: relative;
+}
+
+.click-to-tweet .f-right {
+	float:    right;
+	display:  inline-block;
+	position: relative;
+}
+
+.click-to-tweet .list-reset {
+	list-style: none;
+	margin:     0;
+	padding:    0;
+}
+
+.click-to-tweet .list-reset li {
+	list-style: none;
+	margin:     0;
+	padding:    0;
+}
+
+.click-to-tweet .list-float {
+	zoom: 1;
+}
+
+.click-to-tweet .list-float:after {
+	display:    block;
+	visibility: hidden;
+	height:     0;
+	clear:      both;
+	content:    ".";
+}
+
+.click-to-tweet .list-float li {
+	float:   left;
+	display: inline-block;
+}
+
+.click-to-tweet .kill-box-shadow {
+	box-shadow:         none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow:    none;
+}
+
+.click-to-tweet .alignright {
+	float:         right;
+	margin-bottom: 10px;
+	margin-left:   10px;
+	text-align:    right;
+}
+
+.click-to-tweet .alignleft {
+	float:         left;
+	margin-bottom: 10px;
+	margin-right:  10px;
+	text-align:    right;
+}
+
+.click-to-tweet:after {
+	content:     ".";
+	display:     block;
+	clear:       both;
+	visibility:  hidden;
+	line-height: 0;
+	height:      0;
+}
+
+.click-to-tweet .tm-ctt-reset {
+	margin:   0;
+	padding:  0;
+	position: relative;
+}
+
+.click-to-tweet:after {
+	display:    block;
+	visibility: hidden;
+	height:     0;
+	clear:      both;
+	content:    ".";
+}
+
+.click-to-tweet a {
+	text-decoration: none;
+	text-transform:  none;
+}
+
+.click-to-tweet a:hover {
+	text-decoration: none;
+}
+
+.click-to-tweet .ctt-text {
+	margin:        0;
+	padding:       0;
+	position:      relative;
+	margin-bottom: 10px;
+	word-wrap:     break-word;
+}
+
+.click-to-tweet .ctt-text a {
+	margin:          0;
+	padding:         0;
+	position:        relative;
+	color:           #999999;
+	font-size:       24px;
+	line-height:     140%;
+	text-transform:  none;
+	letter-spacing:  0.05em;
+	font-weight:     100;
+	text-decoration: none;
+	text-transform:  none;
+}
+
+.click-to-tweet .ctt-text a:hover {
+	text-decoration: none;
+	color:           #666666;
+}
+
+.click-to-tweet a.ctt-btn {
+	margin:          0;
+	padding:         0;
+	position:        relative;
+	display:         block;
+	text-transform:  uppercase;
+	font-family:     "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:       12px;
+	font-weight:     bold;
+	line-height:     100%;
+	color:           #999999;
+	float:           right;
+	padding-right:   24px;
+	text-decoration: none;
+	/*background:      transparent url(twitter-button.png) no-repeat right center;*/
+}
+
+.click-to-tweet a.ctt-btn:hover {
+	text-decoration: none;
+	color:           #666666;
+	text-transform:  uppercase;
+}
+
+.ctt-btn:before, .click-to-tweet.twtab-1_twbox-2 .ctt-text a:after, .click-to-tweet.twtab-2_twbox-1 .ctt-text a:after, .click-to-tweet.twtab-2_twbox-2 .ctt-text a:after, .click-to-tweet.twtab-2_twbox-3 .ctt-text a:after, .click-to-tweet.twtab-1_twbox-14 .ctt-text:after, .ctt-collink a:before, .click-to-tweet.twtab-1_twbox-9 a.ctt-btn:before  { content: ""; display: inline-block; font-size: 15px; font-family: FontAwesome; margin-right: 10px; font-style: normal;}
+.click-to-tweet.twtab-1_twbox-2 .ctt-text a:after, .click-to-tweet.twtab-2_twbox-1 .ctt-text a:after,  .click-to-tweet.twtab-2_twbox-2 .ctt-text a:after, .click-to-tweet.twtab-2_twbox-3 .ctt-text a:after, .click-to-tweet.twtab-2_twbox-3 .ctt-collink a:before  { color: #00B6E6; margin-left: 10px;}
+.click-to-tweet .ctt-text a, .click-to-tweet a.ctt-btn { text-decoration: none; border-bottom: 0; letter-spacing: 0;}
+/*twitter section*/
+/*box1*/
+.click-to-tweet.twtab-1_twbox-1 { border:0; background: #fff; font-family: 'Montserrat', sans-serif; text-decoration: none; box-shadow: 0px 0px 2px rgba(0,0,0,0.2); letter-spacing: 0;}
+.click-to-tweet.twtab-1_twbox-1 .ctt-text a { color: #272727; font-family: "Montserrat",sans-serif; font-size: 22px; letter-spacing: 0;}
+.click-to-tweet.twtab-1_twbox-1 a.ctt-btn { font-family: "Open Sans",sans-serif; font-size: 16px; position: relative; text-decoration: none; font-weight: 600; border-radius: 20px; transition: all 0.2s ease-out 0s; text-transform: lowercase; color: #00B6E6; float: right; border: 1px solid #C8E4E5; display: inline-block; margin: 20px 0px 5px; text-align: center; padding: 12px 15px;}
+.click-to-tweet.twtab-1_twbox-1:hover .ctt-text a, .click-to-tweet.twtab-1_twbox-1:hover a.ctt-btn, .click-to-tweet.twtab-1_twbox-15:hover .ctt-text a, .click-to-tweet.twtab-1_twbox-15:hover a.ctt-btn {color: #E53935; border-color: #E53935; }
+
+
+/*box2*/
+
+.click-to-tweet.twtab-1_twbox-2, .click-to-tweet.twtab-1_twbox-5 { background: transparent none repeat scroll 0% 0%; border: 0px none;}
+.click-to-tweet.twtab-1_twbox-2 .ctt-btn { font-size: 0; display: none;}
+.click-to-tweet.twtab-1_twbox-2 .ctt-text a, .click-to-tweet.twtab-1_twbox-15 .ctt-text a { font-family: "Playfair Display",serif; font-style: italic; font-size: 20px; line-height: 28px; color: #666; display: inline-block;}
+.click-to-tweet.twtab-1_twbox-2:hover .ctt-text a {     background-color: #FF0;}
+.click-to-tweet.twtab-1_twbox-2 .ctt-text a:before { content: "“"; position: absolute; left: -25px; font-family: "Playfair Display",serif; font-style: italic; font-size: 50px; line-height: 1; color: #BFC1C2;}
+
+/*box3*/
+.click-to-tweet.twtab-1_twbox-3 .ctt-text a { font-family: "Lato",sans-serif; font-weight: normal; transition: all 0.2s ease-out 0s; color: #363636; font-size: 28px; line-height: 34px;}
+.click-to-tweet.twtab-1_twbox-3 { padding: 0; border: 1px solid #B7B7B7;}
+.click-to-tweet.twtab-1_twbox-3 .ctt-text { border-bottom: 1px solid rgb(183, 183, 183); padding: 15px 30px 30px;}
+.click-to-tweet.twtab-1_twbox-3 a.ctt-btn, .click-to-tweet.twtab-1_twbox-9 a.ctt-btn, .click-to-tweet.twtab-3_twbox-2 .ctt-collink a { color: #FFF; font-family: "Open Sans",sans-serif; font-size: 15px; text-decoration: none; font-weight: 500; padding: 12px 17px; border-radius: 5px; background-color: #00B9E6; transition: all 0.2s ease-out 0s; text-transform: none; margin: 2px 15px 13px;}
+.click-to-tweet.twtab-1_twbox-3 a.ctt-btn:before { display: none;}
+.click-to-tweet.twtab-1_twbox-3:hover a.ctt-btn, .click-to-tweet.twtab-1_twbox-9:hover a.ctt-btn { background: #009EC5 none repeat scroll 0% 0%;}
+.click-to-tweet.twtab-1_twbox-3 .ctt-text a:before { content: "“"; font-size: 75px; font-family: "Open Sans",sans-serif; color: #676C6E; left: 0px; top: 0px; position: relative; line-height: 0px; display: inline-block; vertical-align: middle; margin-right: 5px;}
+
+/*box4*/
+.click-to-tweet.twtab-1_twbox-4 .ctt-text a { font-size: 30px; line-height: 36px; font-family: "Open Sans",sans-serif; color: #333; padding-bottom: 20px !important; font-weight: bold; display: inline-block; padding-top: 15px;     padding-right: 30px;}
+.click-to-tweet.twtab-1_twbox-4 { border-radius: 0; border:0; background: #F5F5F5 none repeat scroll 0% 0%; border-left: 5px solid #BFBFBF; padding-right:0; margin-bottom: 0;transition: all 0.2s ease-out 0s; }
+.click-to-tweet.twtab-1_twbox-4 .ctt-text { border-bottom: 1px solid rgb(218, 218, 218); margin-bottom: 0}
+.click-to-tweet.twtab-1_twbox-4 a.ctt-btn { padding: 20px 0px 15px; float: left; color: #BFBFBF; font: bold 14px "Open Sans",sans-serif; transition: all 0.2s ease-out 0s; }
+.click-to-tweet.twtab-1_twbox-4 a.ctt-btn:before, .click-to-tweet.twtab-1_twbox-5 a.ctt-btn:before {  font-size: 28px; font-family: FontAwesome; margin-right: 2px;}
+.click-to-tweet.twtab-1_twbox-4:hover {     border-left: 5px solid #2AA9E0;}
+.click-to-tweet.twtab-1_twbox-4:hover a.ctt-btn { color: #00B9E6;}
+
+/*box5*/
+.click-to-tweet.twtab-1_twbox-5 .ctt-text a { padding-top: 5%; padding-right: 20%; /*padding-left: 5%;*/ padding-bottom: 5% !important; font-size: 30px; line-height: 36px; font-family: "Lato",sans-serif; color: #333; transition: all 0.2s ease-out 0s; font-weight: 500; display: inline-block;}
+
+.click-to-tweet.twtab-1_twbox-5 a.ctt-btn { color: #BFBFBF; font-family: "Lato",sans-serif; font-size: 16px; text-transform: none; font-weight: normal; float: left;}
+.click-to-tweet.twtab-1_twbox-5 a.ctt-btn:before {     color: #00B9E6;}
+.click-to-tweet.twtab-1_twbox-5 .ctt-text:before { content: ""; position: absolute; left: 0%; top: 0px; height: 5px; background: #BFBFBF none repeat scroll 0% 0%; width: 60px; transition: all 0.2s ease-out 0s;}
+.click-to-tweet.twtab-1_twbox-5:hover .ctt-text a, .click-to-tweet.twtab-1_twbox-5:hover a.ctt-btn {     color: #00B9E6; transition: all 0.2s ease-out 0s;}
+.click-to-tweet.twtab-1_twbox-5:hover .ctt-text:before {  background: #00B9E6;}
+
+
+
+/*box6*/
+.click-to-tweet.twtab-1_twbox-6 { text-align: center; background: none; border: 1px solid transparent;}
+.click-to-tweet.twtab-1_twbox-6 .ctt-text a { padding: 40px 5% 0px; font-size: 27px; line-height: 36px; font-family: "Playfair Display",serif; font-style: italic; text-align: center; position: relative; color: #333; display: inline-block;}
+.click-to-tweet.twtab-1_twbox-6 a.ctt-btn { border: 1px solid #00B6E6; color: #00B6E6; font: italic 14px "Playfair Display",serif; position: relative; margin: 27px auto 0px; text-decoration: none; padding: 9px 21px; text-align: center; border-radius: 20px; transition: all 0.2s ease-out 0s; text-transform: none; float: none; display: inline-block;}
+.click-to-tweet.twtab-1_twbox-6:hover a.ctt-btn { color: #EB7260; border: 1px solid #EB7260;}
+.click-to-tweet.twtab-1_twbox-6:hover { border: 1px solid #ECECEC;}
+
+
+/*box7*/
+.click-to-tweet.twtab-1_twbox-7 { border: 0px none; background: transparent none repeat scroll 0% 0%;}
+.click-to-tweet.twtab-1_twbox-7 .ctt-text a { padding-bottom: 0px !important; padding-top: 0%; padding-right: 45px; padding-left: 45px; font-size: 27px; line-height: 36px; font-family: "Lato",serif; transition: all 0.2s ease-out 0s; position: relative; color: #333; font-weight: 900; display: inline-block;}
+.click-to-tweet.twtab-1_twbox-7:hover .ctt-text a {  color: #2AA9E0; transition: all 0.2s ease-out 0s; }
+.click-to-tweet.twtab-1_twbox-7 a.ctt-btn, .click-to-tweet.twtab-1_twbox-8 a.ctt-btn { color: #2AA9E0; font-family: "Lato",serif; font-size: 15px; font-weight: 900; text-transform: none; float: left; margin-left: 45px; padding-top: 10px;}
+.click-to-tweet.twtab-1_twbox-7 a.ctt-btn:before, .click-to-tweet.twtab-1_twbox-8 a.ctt-btn:before { font-size: 25px;}
+
+/*box-8*/
+.click-to-tweet.twtab-1_twbox-8 { display: block; transition: all 0.2s ease-out 0s; position: relative; background: #F5F5F5 none repeat scroll 0% 0%; padding: 21px 0px 20px; box-shadow: -1px 1px #CCC, -2px 2px #CCC, -3px 3px #CCC, -4px 4px #CCC, -5px 5px #CCC, -6px 6px #CCC, -7px 7px #CCC, -8px 8px #CCC, -9px 9px #CCC, -10px 10px #CCC; text-decoration: none; border-radius: 0px; border: 0px none; text-transform: uppercase;}
+.click-to-tweet.twtab-1_twbox-8 .ctt-text a { padding-bottom: 0px !important; padding-top: 0px; padding-right: 43px;padding-left: 43px; font-size: 24px; line-height: 36px; transition: all 0.2s ease-out 0s; position: relative; color: #333; font-family: "Open Sans",sans-serif; display: inline-block; text-transform: uppercase; font-weight: 900;}
+.click-to-tweet.twtab-1_twbox-8 a.ctt-btn { font-size: 14px; font-weight: 900; font-family: "Open Sans",sans-serif; color: #BFBFBF;}
+.click-to-tweet.twtab-1_twbox-8:hover { background: #2AA9E0 none repeat scroll 0% 0%; box-shadow: -1px 1px #1E8AB8, -2px 2px #1E8AB8, -3px 3px #1E8AB8, -4px 4px #1E8AB8, -5px 5px #1E8AB8, -6px 6px #1E8AB8, -7px 7px #1E8AB8, -8px 8px #1E8AB8, -9px 9px #1E8AB8, -10px 10px #1E8AB8;}
+.click-to-tweet.twtab-1_twbox-8:hover .ctt-text a, .click-to-tweet.twtab-1_twbox-8:hover a.ctt-btn { color: #FFF;}
+
+/*box-9*/
+.click-to-tweet.twtab-1_twbox-9 { padding: 0; width: 100%; border: 1px solid #E0E0E0; border-radius: 0;}
+.click-to-tweet.twtab-1_twbox-9 .ctt-text a { padding: 5% 5% 4%; font-size: 24px; line-height: 36px; font-family: "Open Sans",sans-serif; transition: all 0.2s ease-out 0s; position: relative; color: #7898A3; display: inline-block; background: #E8F6FB none repeat scroll 0% 0%; width: 100%; font-weight: normal; border-bottom: 1px solid #DADADA;}
+.click-to-tweet.twtab-1_twbox-9:hover .ctt-text a { background: #C2E2ED none repeat scroll 0% 0%;}
+
+
+/*box-10*/
+.click-to-tweet.twtab-1_twbox-10 { border: 5px solid #E5E5E5;    border-radius: 0px; background: none; transition: all 0.2s ease-out 0s; }
+.click-to-tweet.twtab-1_twbox-10 a.ctt-btn { color: #CCC; line-height: 22px; font-size: 14px; text-transform: none; font-family: "Montserrat",sans-serif; font-weight: normal; letter-spacing: 0; padding-right:0; transition: all 0.2s ease-out 0s; }
+.click-to-tweet.twtab-1_twbox-10:hover a.ctt-btn { color: #00B6E6;}
+.click-to-tweet.twtab-1_twbox-10 .ctt-text a { font: 30px/38px "Montserrat",sans-serif; color: #333;}
+.click-to-tweet.twtab-1_twbox-10:hover { border: 5px solid #00B6E6;}
+
+
+/*box-11*/
+.click-to-tweet.twtab-1_twbox-11 { background: #FDFDFD none repeat scroll 0% 0%; box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); border: 0; border-radius: 0; transition: all 0.2s ease-out 0s;}
+.click-to-tweet.twtab-1_twbox-11 .ctt-text a { font: 26px/32px "PT Serif",serif; color: #7B7B7B; border-bottom: 1px solid rgb(229, 229, 229); padding-bottom: 20px; display: inline-block;}
+.click-to-tweet.twtab-1_twbox-11 a.ctt-btn { color: #999; text-transform: none; font-family: "PT Serif",sans-serif !important; font-size: 13px; font-weight: normal; float: left; padding: 8px 0px 13px;}
+.click-to-tweet.twtab-1_twbox-11 a.ctt-btn:before { font-size: 22px; color: #2AA9E0; margin-right: 4px;}
+.click-to-tweet.twtab-1_twbox-11:hover { box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2);}
+.click-to-tweet.twtab-1_twbox-11:hover .ctt-text a {     color: #666;}
+
+/*box-12*/
+.click-to-tweet.twtab-1_twbox-12 { transition: all 0.2s ease-out 0s;background: #F7F7F7 none repeat scroll 0% 0%;border-radius: 0px;border: 0px none; padding: 25px 30px;}
+.click-to-tweet.twtab-1_twbox-12 .ctt-text a {     color: #333; padding: 10px;font: 28px/36px "Open Sans",sans-serif;  display: inline-block;}
+.click-to-tweet.twtab-1_twbox-12 a.ctt-btn { color: #00B6E6; font: 14px "Open Sans",sans-serif; text-transform: none;}
+.click-to-tweet.twtab-1_twbox-12:hover {     background: #333 none repeat scroll 0% 0%;}
+.click-to-tweet.twtab-1_twbox-12:hover .ctt-text a { color: #ccc;}
+.click-to-tweet.twtab-1_twbox-12:hover a.ctt-btn { color: #fff;}
+
+/*box-13*/
+.click-to-tweet.twtab-1_twbox-13 { border: 5px solid rgb(174, 212, 238); border-radius: 0px; padding: 37px 25px; text-align: center;     transition: all 0.2s ease-out 0s;}
+.click-to-tweet.twtab-1_twbox-13:hover { border: 5px solid #17B8E6;}
+.click-to-tweet.twtab-1_twbox-13:hover .ctt-text a { text-decoration: underline;}
+.click-to-tweet.twtab-1_twbox-13 .ctt-text a {     color: #878787;  text-align: center;     font-size: 22px; line-height: 28px; text-align: center;  font-family: "Mate",serif; text-align: center;}
+.click-to-tweet.twtab-1_twbox-13 a.ctt-btn { font-family: "Roboto",sans-serif; text-transform: none; font-weight: normal; float: none; color: #17B8E6; font-family: "Roboto",sans-serif; font-size: 14px; line-height: 22px; padding: 6px 19px; display: inline-block; border-radius: 4px;}
+.click-to-tweet.twtab-1_twbox-13:hover a.ctt-btn { background: #17B8E6; color: #fff;}
+
+
+/*box-14*/
+.click-to-tweet.twtab-1_twbox-14 { box-shadow: 4px 4px 0px 0px #EBEBEB; border: 0px none; border-radius: 0px; background: #49C5E6 none repeat scroll 0% 0%; padding: 0px; transition: all 0.2s ease-out 0s;}
+.click-to-tweet.twtab-1_twbox-14 .ctt-text { overflow: hidden; margin-bottom: 0;}
+.click-to-tweet.twtab-1_twbox-14 .ctt-text a { padding-top: 37px; padding-right: 115px; padding-left: 29px; padding-bottom: 30px !important; font-size: 24px; line-height: 36px; font-family: "Roboto",serif; font-weight: 300; transition: all 0.2s ease-out 0s; position: relative; z-index: 1; display: inline-block; color: rgb(255, 255, 255); margin-bottom: 0;}
+.click-to-tweet.twtab-1_twbox-14 a.ctt-btn { background: #2FA2C1 none repeat scroll 0% 0%; color: #FFF; display: inline-block; width: 100%; padding: 15px; text-align: right; text-transform: none;font-weight: normal; box-sizing: border-box;}
+.click-to-tweet.twtab-1_twbox-14 .ctt-text:after { position: absolute; font-size: 14em; line-height: 203px; right: -10px; color: rgba(255,255,255,0.2);}
+.click-to-tweet.twtab-1_twbox-14:hover .ctt-text a {color: #676767; text-decoration: underline;}
+.click-to-tweet.twtab-1_twbox-14:hover { background: #DCDCDC none repeat scroll 0% 0%;}
+
+.click-to-tweet.twtab-1_twbox-15 { background-color: transparent; background-image: radial-gradient(circle at 0px 100% , transparent 14px, #F1F1F1 15px), radial-gradient(circle at 100% 100% , transparent 14px, #F1F1F1 15px), radial-gradient(circle at 100% 0px , transparent 14px, #F1F1F1 15px), radial-gradient(circle at 0px 0px , transparent 14px, #F1F1F1 15px); background-attachment: scroll, scroll, scroll, scroll; background-clip: border-box, border-box, border-box, border-box; background-origin: padding-box, padding-box, padding-box, padding-box; background-position: left bottom, right bottom, right top, left top; background-size: 51% 51%; background-repeat: no-repeat; box-shadow: none; border: 0;}
+
+
+.click-to-tweet.twtab-1_twbox-15 a.ctt-btn { text-transform: none; font-weight: normal; color: #49C5E6; }
+
+
+/*box-2-hint*/
+.click-to-tweet.twtab-2_twbox-1,.click-to-tweet.twtab-2_twbox-2, .click-to-tweet.twtab-2_twbox-3 { border:0; background: none;}
+.click-to-tweet.twtab-2_twbox-1 .ctt-text, .click-to-tweet.twtab-2_twbox-1 .ctt-text a,
+.click-to-tweet.twtab-2_twbox-2 .ctt-text, .click-to-tweet.twtab-2_twbox-2 .ctt-text a,
+.click-to-tweet.twtab-2_twbox-3 .ctt-text, .click-to-tweet.twtab-2_twbox-3 .ctt-text a
+{ font-size: 16px; line-height: 24px; color: #000; font-weight: 400; font-family: "Open Sans",sans-serif;}
+.click-to-tweet.twtab-2_twbox-1 .ctt-text a { background: rgba(238, 255, 65, 0.5) none repeat scroll 0% 0%; line-height: 1.8; padding: 0px 8px 0px 8px; border-radius: 3px; border: 1px solid #E7E7E7; transition: all 0.2s ease-out 0s; cursor: pointer; text-decoration: none !important;}
+.click-to-tweet.twtab-2_twbox-1 .ctt-text a:hover { background: #EEFF41 none repeat scroll 0% 0%;}
+
+.click-to-tweet.twtab-2_twbox-2 .ctt-text a { text-decoration: underline; transition: all 0.2s ease-out 0s;}
+.click-to-tweet.twtab-2_twbox-2 .ctt-text a:hover { color: #00B6E6;}
+.click-to-tweet.twtab-2_twbox-3 .ctt-text a { transition: all 0.2s ease-out 0s;   padding: 0px 8px 0px 8px;}
+.click-to-tweet.twtab-2_twbox-3 .ctt-text a:hover {     background: #FF0 none repeat scroll 0% 0%;}
+
+
+
+/*image section*/
+.click-to-tweet.twtab-3_twbox-1, .click-to-tweet.twtab-3_twbox-2, .click-to-tweet.twtab-3_twbox-3, .click-to-tweet.twtab-3_twbox-4, .click-to-tweet.twtab-3_twbox-5  {     padding: 0; border: 0;  border-radius: 0; overflow: hidden;}
+.ctt-collink { padding: 10px 0;}
+.ctt-collink a { color: #4B4B4B; font-family: "Lato",sans-serif; position: relative; font-size: 14px; text-decoration: none !important;}
+.click-to-tweet.twtab-3_twbox-2 .ctt-collink a { display: inline-block; margin: 0 auto;}
+.click-to-tweet.twtab-3_twbox-3 .ctt-collink a:before, .click-to-tweet.twtab-3_twbox-5 .ctt-collink a:before, .click-to-tweet.twtab-3_twbox-4 .ctt-collink a:before  { display: none;}
+.click-to-tweet.twtab-3_twbox-3 .ctt-collink a, .click-to-tweet.twtab-3_twbox-4 .ctt-collink a, .click-to-tweet.twtab-3_twbox-5 .ctt-collink a { display: inline-block; margin: 0 auto; font-size: 0;
+	background: url(../images/btn-original.png) no-repeat center center; width: 60px; height: 30px; vertical-align: top;}
+.click-to-tweet.twtab-3_twbox-4 .ctt-collink a, .click-to-tweet.twtab-3_twbox-5 .ctt-collink a { position: absolute; right: 15px; top: 5px;}
+.click-to-tweet.twtab-3_twbox-5 .ctt-collink a {    left: 0; right: 0; top: 43%; margin: 0 auto;  display: none;}
+.ctt-colthumb:after { content: ""; display: inline-block; position: absolute; left:0; right:0; top:0;bottom: 0; width:100%; height:100%;}
+.click-to-tweet.twtab-3_twbox-4:hover .ctt-colthumb:after  { background: rgba(255,255,255,0.3);}
+.click-to-tweet.twtab-3_twbox-5:hover img { transition: all 0.2s ease-out 0s; transform: scale(1.05);}
+.click-to-tweet.twtab-3_twbox-5 img { transition: all 0.2s ease-in 0s;}
+.click-to-tweet.twtab-3_twbox-5:hover  .ctt-collink a { display: inline-block;}
+
+/*admin tabs*/
+ul#tab-lbl { padding: 0; border-bottom: 1px solid #ccc;}
+ul#tab-lbl li { list-style: outside none none; display: inline-block;}
+ul#tab-lbl li.active a { padding: 10px; text-decoration: none; color: rgb(255, 255, 255); background: rgb(0, 185, 230) none repeat scroll 0% 0%; border-radius: 2px 2px 0px 0px;}
+ul#tab-lbl li a { padding: 10px; display: inline-block; text-decoration: none; color: #656565; background: #DDD none repeat scroll 0% 0%;}
+
+/*==    ==*/
+.author-first-inner {
+	border: red 1px solid;
+    background-color: #ffffff;
+    padding: 14px 21px;
+	-moz-border-radius: 10px;/*Firefox*/
+-webkit-border-radius: 10px;/*Safari, Chrome*/
+border-radius: 10px;
+}
